@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/StudioGhibli'
+require_relative './lib/StudioGhibliCLI'
 
 StudioGhibliCLI::CLI.new.call
 
+# to run ths CLI you are doing .bin/StudioGhibliCLI/StudioGhibliCLI
